@@ -80,7 +80,7 @@ module WorkflowEnhancements::Graph
   private
 
   def self.is_default_status(tracker, status)
-    if Redmine::VERSION::MAJOR == 3
+    if Redmine::VERSION::MAJOR > 3
       tracker.default_status == status
     else
       status.is_default
