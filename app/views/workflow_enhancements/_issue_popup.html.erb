@@ -17,9 +17,9 @@
           $("#workflow-display").html(data);
           $("#workflow-dialog").dialog({
             title: $("#workflow-dialog h4").text(),
-            resizable: false,
-            width: '1000px',
-            height: '400px',
+            resizable: true,
+            width: 'auto',
+            height: 'auto',
             close: function(event, ui) {
               $(this).dialog('destroy').remove();
             }
