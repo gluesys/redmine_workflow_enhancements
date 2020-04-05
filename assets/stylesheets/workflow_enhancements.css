@@ -1,6 +1,7 @@
 #predef-statuses label{white-space:nowrap}
 .workflowGraphContainer{clear:both;padding-top:15px}
 .workflowGraph{background:#fff;border:1px solid #e4e4e4}
+#workflow-dialog{min-width:fit-content}
 text{font-weight:300;font-family:"Helvetica Neue",Helvetica,Arial,sans-serf;font-size:14px}
 .node rect{stroke-width:2px;stroke:#333;fill:#fff}
 .state-new rect,.state-new-possible rect{fill:#f2dede}
