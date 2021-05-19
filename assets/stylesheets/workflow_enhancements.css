@@ -1,70 +1,17 @@
-#predef-statuses label {
-  white-space: nowrap;
-}
-
-.workflowGraphContainer {
-  clear: both;
-  padding-top: 15px;
-}
-
-.workflowGraph {
-  background: white;
-  border: 1px solid #E4E4E4;
-}
-
-text {
-  font-weight: 300;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
-  font-size: 14px;
-}
-
-.node rect {
-  stroke-width: 2px;
-  stroke: #333;
-  fill: #fff;
-}
-
-.state-new rect,
-.state-new-possible rect {
-  fill: #F2DEDE;
-}
-.state-new text {
-  font-weight: bold;
-}
-.state-closed rect {
-  fill: #DFF0D8;
-}
-
-.state-current rect {
-  stroke-width: 4px;
-  stroke: gray;
-}
-.state-current text {
-  font-style: italic;
-}
-.state-possible rect {
-  stroke-width: 4px;
-  stroke: #628DB6;
-}
-
-.edgeLabel rect {
-  fill: #fff;
-}
-
-.edgePath path {
-  stroke: #333;
-  stroke-width: 1.5px;
-  fill: none;
-}
-
-.transOther path {
-  stroke: #ccc;
-  stroke-width: 1px;
-}
-.transOwn-assignee path {
-  stroke: #a33;
-}
-.transOwn-author path {
-  /*stroke: #3a3;*/
-  stroke-dasharray: 5,5;
-}
+#predef-statuses label{white-space:nowrap}
+.workflowGraphContainer{clear:both;padding-top:15px}
+.workflowGraph{background:#fff;border:1px solid #e4e4e4}
+.ui-dialog .ui-widget .ui-widget-content .ui-corner-all .ui-front .ui-draggable {min-width:fit-content}
+text{font-weight:300;font-family:"Helvetica Neue",Helvetica,Arial,sans-serf;font-size:14px}
+.node rect{stroke-width:2px;stroke:#333;fill:#fff}
+.state-new rect,.state-new-possible rect{fill:#f2dede}
+.state-new text{font-weight:700}
+.state-closed rect{fill:#dff0d8}
+.state-current rect{stroke-width:4px;stroke:gray}
+.state-current text{font-style:italic}
+.state-possible rect{stroke-width:4px;stroke:#628db6}
+.edgeLabel rect{fill:#fff}
+.edgePath path{stroke:#333;stroke-width:1.5px;fill:none}
+.transOther path{stroke:#ccc;stroke-width:1px}
+.transOwn-assignee path{stroke:#a33}
+.transOwn-author path{stroke-dasharray:5,5}
